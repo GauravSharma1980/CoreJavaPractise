@@ -1,0 +1,22 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "d".(Øå§µøÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "f".(²°¦‰ÿÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "z".(ëÅ¿üúÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "y".(È­í¼ÿÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "x".(©Óò—
+<
+java:S1481"&Remove this unused "x" local variable.(©Óò—
+A
+java:S1481"&Remove this unused "y" local variable.(È­í¼ÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "z" local variable.(ëÅ¿üúÿÿÿÿ
+A
+java:S1481"&Remove this unused "f" local variable.(²°¦‰ÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "d" local variable.(Øå§µøÿÿÿÿ
+@	java:S106""+Replace this use of System.out by a logger.(«‹Îõ

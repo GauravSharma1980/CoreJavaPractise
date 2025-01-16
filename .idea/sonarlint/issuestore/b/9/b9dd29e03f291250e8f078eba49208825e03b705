@@ -1,0 +1,15 @@
+
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Ş†—Áıÿÿÿÿ
+A
+java:S1168"+Return an empty collection instead of null.(¥¹ï
+V	java:S125"<This block of commented-out lines of code should be removed.( ÔÆßûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ã“ıÙ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÍÎ×Óÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(²·‹ôÿÿÿÿÿ
+P	java:S125 "<This block of commented-out lines of code should be removed.(öÏê
+Q	java:S125""<This block of commented-out lines of code should be removed.(Ç¢ä
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

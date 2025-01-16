@@ -1,0 +1,8 @@
+
+c	java:S116"NRename this field "NUM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öƒš¥
+7
+java:S1170"!Make this final field static too.(Öƒš¥
+h	java:S116	"NRename this field "NUM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èë•¾ùÿÿÿÿ
+E
+java:S2387	"*"NUM" is the name of a field in "Super53".(èë•¾ùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(øù‡¦
