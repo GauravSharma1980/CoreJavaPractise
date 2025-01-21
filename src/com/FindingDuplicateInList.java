@@ -1,9 +1,12 @@
 package com;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import org.w3c.dom.ls.LSOutput;
+
+import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class FindingDuplicateInList {
 
@@ -16,5 +19,19 @@ public class FindingDuplicateInList {
         integerList.stream().forEach( number -> setList.add(number));
 
         System.out.println(setList);
+
+        findingDuplicatesWithoutUsingSet();
+    }
+
+    private static void findingDuplicatesWithoutUsingSet() {
+
+        //List<Integer> integerList = Arrays.asList(23,45,67,23);
+
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 1, 2, 6);
+        Map<Integer, Long> duplicates = numbers.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        System.out.println("duplicates::"+duplicates);
+        duplicates.entrySet().stream().filter(entry -> entry.getValue() > 1) .forEach(entry -> System.out.println(entry.getKey() + " appears " + entry.getValue() + " times"));
+
+
     }
 }
