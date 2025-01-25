@@ -1,10 +1,7 @@
 package com;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.ToIntFunction;
-import java.util.stream.IntStream;
 
 //Write a Java 8 program to filter even numbers from a list.
 public class FilterEvenNumberFromList {
